@@ -1,0 +1,96 @@
+.about {
+    background-color: white;
+    padding: 0 20px;
+}
+
+.about-container {
+    display: flex;
+}
+
+.about-l {
+    flex: 1;
+}
+
+.about-title {
+    position: relative;
+}
+
+.about-title>span {
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 4px;
+    background-color: #398541;
+    top: 50px;
+}
+
+.about-title>h1 {
+    color: #2f9e41;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-content>p {
+    line-height: 25px;
+    color: #777E90;
+}
+
+.about-main {
+    display: flex;
+    margin-top: 20px;
+}
+
+.about-mission {
+    flex: 1;
+}
+
+.about-mission>h2 {
+    font-size: 40px;
+    color: #2f9e41;
+    font-weight: bold;
+}
+
+.about-mission>p {
+    line-height: 25px;
+    color: #777E90;
+    margin-top: 20px;
+}
+
+.about-vision {
+    flex: 1;
+}
+
+.about-vision>h2 {
+    font-size: 40px;
+    color: #2f9e41;
+    font-weight: bold;
+}
+
+.about-vision>p {
+    line-height: 25px;
+    color: #777E90;
+    margin-top: 20px;
+}
+
+.about-r {
+    flex: 1;
+    margin-left: 4rem;
+}
+
+@media screen and (max-width: 800px) {
+    .about-container {
+        flex-direction: column;
+    }
+    .about-r {
+        margin-left: 0;
+    }
+    .about-main {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .about-title>span {
+        display: none;
+    }
+}
