@@ -6,7 +6,7 @@ import Customer from '../customer/Customer'
 const Forms = ({onCloseModal}) => {
   return (
     <div className='relative'>
-        <Close onClick={onCloseModal} fontSize='large' className='cursor-pointer top-20  absolute text-white right-5'/>
+        <Close onClick={onCloseModal} fontSize='large' className='cursor-pointer top-10  absolute text-white right-5'/>
         <Customer />
     </div>
   )

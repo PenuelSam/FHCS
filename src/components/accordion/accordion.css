@@ -12,7 +12,7 @@
 
 .faq-question>p {
     color: #204945;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
 }
 
@@ -33,7 +33,7 @@
 }
 
 .faq-minus, .faq-plus {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #2f9e41;
     cursor: pointer;
 }

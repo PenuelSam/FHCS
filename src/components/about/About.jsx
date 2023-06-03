@@ -10,7 +10,7 @@ const About = () => {
               <h1>About Us</h1>
               <span></span>
             </div>
-            <p className=" text-[20px] sm:text-[20px] lg:text-[30px] lg:leading-[1.6]">
+            <p className=" text-[15px] sm:text-[15px] lg:text-[25px] lg:leading-[1.6]">
               First Haven Care Solutions is a family-owned care agency dedicated
               to providing care workers to the domiciliary homes of the under
               65s and over 65s who not only need support in their personal care
@@ -27,7 +27,7 @@ const About = () => {
           <div className="about-main">
             <div className="about-mission">
               <h2>Mission</h2>
-              <p className="  text-[20px] sm:text-[20px] lg:text-[30px] lg:leading-[1.6]">
+              <p className="  text-[15px] sm:text-[15px] lg:text-[25px] lg:leading-[1.6]">
                 We aim to cater to the under 65s with special needs as well as
                 the over 65s with physical disabilities and elderly people
                 generally who require assistance in their homes whether it be
@@ -40,7 +40,7 @@ const About = () => {
         <div className="about-r flex items-center justify-center">
         <div className="about-vision">
               <h2>Vision</h2>
-              <p className="  text-[20px] sm:text-[20px] lg:text-[30px] lg:leading-[1.6]">
+              <p className="  text-[15px] sm:text-[15px] lg:text-[25px] lg:leading-[1.6]">
                 We aim to provide qualified and experienced care workers whose
                 aim is to ensure that the clients are comfortable and treated
                 well in your own space at home. We want to provide an excellent

@@ -65,7 +65,7 @@ const Navbar = () => {
             <ul className="list-none flex lg:hidden  uppercase items-center justify-center cursor-pointer">
                 {
                     NavLinks.map((nav)=> (
-                       <a href={nav.link} target='_parent'><li key={nav.id}  className={`ml-[10px] text-[20px]`}>{nav.name}</li></a> 
+                       <a href={nav.link} target='_parent'><li key={nav.id}  className={`ml-[10px] text-[15px]`}>{nav.name}</li></a> 
                     ))
                 }
             </ul>

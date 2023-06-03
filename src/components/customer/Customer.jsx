@@ -1,32 +1,32 @@
 const Customer = () => {
   return (
-    <div className="bg-black/50 w-[50rem] md:w-[100vw] md:h-[60%] lg:h-[600px]  h-[50rem] mb-[50px]">
-      <h1 className="text-[50px] lg:text-[30px] text-slate-300 text-center mt-[50px] pt-[20px] font-bold mb-[50px]">
+    <div className="bg-black/50 w-[50rem] md:w-[100vw] md:h-[55%] lg:h-[550px]  h-[45rem] mb-[20px]">
+      <h1 className="text-[40px] lg:text-[25px] text-slate-300 text-center mt-[20px] pt-[20px] font-bold mb-[20px]">
         Contact Us
       </h1>
       
         <div className="max-container">
           <form>
             <div className="flex flex-col">
-              <label className="text-[20px] text-slate-300 font-bold py-3">Name *</label>
+              <label className="text-[15px] text-slate-300 font-bold py-3">Name *</label>
               <input type="text" className="outline-none rounded-md h-[40px]" />
             </div>
             <div className="flex flex-col">
-              <label className="text-[20px] text-slate-300 font-bold py-3">Phone *</label>
+              <label className="text-[15px] text-slate-300 font-bold py-3">Phone *</label>
               <input
                 type="number"
                 className="outline-none rounded-md h-[40px]"
               />
             </div>
             <div className="flex flex-col">
-              <label className="text-[20px] text-slate-300 font-bold py-3">Email *</label>
+              <label className="text-[15px] text-slate-300 font-bold py-3">Email *</label>
               <input
                 type="email"
                 className="outline-none rounded-md h-[40px]"
               />
             </div>
             <div className="flex flex-col">
-              <label className="text-[20px] text-slate-300 font-bold py-3">Message *</label>
+              <label className="text-[15px] text-slate-300 font-bold py-3">Message *</label>
               <textarea
                 name=""
                 id=""
